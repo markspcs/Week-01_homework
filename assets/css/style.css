@@ -1,4 +1,5 @@
-body {
+body
+    {
     padding: 0;
     margin: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -35,4 +36,14 @@ img {
     width: 100%;
     height: 4px;
     background: #cccccc;
+}
+footer {
+    background: #666666;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
