@@ -37,21 +37,36 @@ h1 {
     background: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
+h1,
+h2{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
 h2,
 img,
 #body-text{
     padding: 15px;
+    margin:0;
 }
 #nav {
     float: right;
-    vertical-align: bottom;
-    padding-left: 20px;
+    margin-top: 20px;
     
 }
 h2{
     padding: 15px;
-    padding-top: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     color:#4aaaa5;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+hr {
+    margin: 15px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 0;
+    height: 4px;
+    background: #cccccc;
 }
 img {
     width: 200px;
