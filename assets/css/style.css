@@ -68,11 +68,31 @@ hr {
     height: 4px;
     background: #cccccc;
 }
+a {
+    color: #777777;
+    text-decoration: none;
+}
 img {
     width: 200px;
 }
 #body-text {
     float: right;
+}
+form {
+    margin: 15px;
+}
+input[type=text],
+textarea{
+    width: 100%;
+    border: 1px solid #cccccc;
+}
+input[type=submit]{
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    margin: 15px 0px;
+    padding: 10px 20px;
+
 }
 .footer {
     border-top: 8px solid #4aaaa5;
